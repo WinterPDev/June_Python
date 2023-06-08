@@ -3,16 +3,8 @@
 # Example of a list of dictionaries using the PokeAPI
 
 pokemon_list = [
-    {
-        "id": 1, 
-        "name": "Bulbasaur", 
-        "types": ["poison", "grass"]
-    },
-    {
-        "id": 5, 
-        "name": "Charmeleon", 
-        "types": ["fire"]
-    },
+    { "id": 1, "name": "Bulbasaur", "types": ["poison", "grass"]},
+    { "id": 5, "name": "Charmeleon", "types": ["fire"]},
     {"id": 9, "name": "Blastoise", "types": ["water"]},
     {"id": 12, "name": "Butterfree", "types": ["bug", "flying"]},
     {"id": 16, "name": "Pidgey", "types": ["normal", "flying"]},
