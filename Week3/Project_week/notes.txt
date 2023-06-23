@@ -1,0 +1,46 @@
+
+
+Goal of a Project: Building a portfolio for potential employers or exploring new technologies/improving your understanding with languages.
+
+
+Your goal in Project Week: 
+Building your MVP ( Minimal viable product )
+
+Sources of Inspiration: Expedia, Airliners, Google Maps/Other trip assitance, etc...
+
+Example: Trip Planner App MVP:
+
+    - Allowing users to register and record their trip plans
+    - The ability to schedule/record what the trip is. (Such as the start and end time of your trip)
+
+    -> Incorporate a new technology/feature to the app that goes beyond a simple Flask CRUD application that we covered in the material.
+
+        - New Tech Ideas for the Trip Planner:
+            1. API to check hotel availability/AirBnB
+            2. API for tracking location/distance. (Google Maps)
+            3. Create using the Django framework 
+
+    Aggregating Data:
+        - Calculate the trip's length, what to pack based on weather, etc. to give recommendations.
+        - Getting Hotels/Locations to visit based on the trip destination that is used. 
+
+
+
+Expectations for Projects in Week 4:
+
+Monday -> You have a project idea and a wireframe. (Also a github Repo/Trello board is ideal!)
+        -> Your project idea should be what your MVP is and what the additional features are.
+
+Tuesday -> The project is started, and some of the views are created/usable!
+            -> Database is online/mapped out and ready to use.
+
+Wednesday -> Continue to expand on the wireframe and build your application/test additional features.
+            -> Re-evaluate if you will make the Friday deadline, and then adjust if needed.
+
+Thursday -> Finalizing your MVP in time for Friday Morning.
+            -> Having your MVP as close to finished as possible, the minimum requirement is things we've covered in the course. I.E. Flask CRUD full stack application.
+
+Friday -> Finalize any last minute features and prepare for presentations
+            -> You can present your project to everyone at Coding Dojo at Graduation.
+
+
