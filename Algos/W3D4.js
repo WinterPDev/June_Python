@@ -38,12 +38,25 @@ const expected4 = 4;
  * @returns {boolean} Whether the given num exists in the given array.
  */
 function binarySearch(sortedNums, searchNum) {
+    let leftIndex = 0;
+    let rightIndex = sortedNums.length - 1;
 
-    // Note: The values in the array are assumed to be SORTED from least to greatest.
 
-    // While loop, since we don't necessarily know the length of our list every time.
+    while (leftIndex <= rightIndex) {
+        let middleIndex = Math.floor(rightIndex - leftIndex / 2);
 
-    // Keeping track of the index at the start, index at the end, and considering the middle point that we check first. 
+        if (sortedNums[middleIndex] === searchNum) {
+            return true;
+        }
+
+        if (searchNum < sortedNums[middleIndex]) {
+            rightIndex = middleIndex - 1;
+        } else {
+            leftIndex = middleIndex + 1;
+        }
+    }
+
+    return false;
 
 }
 
